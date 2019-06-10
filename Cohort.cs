@@ -6,9 +6,9 @@ namespace StudentExercises{
     class Cohort{
         public string cohortName { get; set; }
 
-        public List<Student> studentList = new List<Student>();
+        public List<Student> studentList { get; set; } = new List<Student>();
 
-        public List<Instructor> instructorList = new List<Instructor>();
+        public List<Instructor> instructorList { get; set; } = new List<Instructor>();
 
     }
 }

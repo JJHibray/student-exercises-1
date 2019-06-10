@@ -16,6 +16,7 @@ namespace StudentExercises
 
          public void addExcercise(Exercise assignment, Student person){
              person.excerciseList.Add(assignment);
+            assignment.studentList.Add(person);
          }
     }
 }
